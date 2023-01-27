@@ -4,7 +4,7 @@ on: push
 
 jobs:
   delivery:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
     name: Deliver container job
     steps:
       - name: Check out repository
